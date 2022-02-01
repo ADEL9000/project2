@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Log in</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -46,7 +46,45 @@
     </div>
   </header>
   <main class="main">
-
+    <section class="top">
+      <div class="top__container" style="background-image: url('images/top-bg.jpg');">
+        <div class="container">
+          <h2 class="top__title">Log in</h2>
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Home</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Log in</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="modal">
+      <div class="container">
+        <div class="modal__inner">
+          <div class="modal__links">
+            <a class="modal__link" href="#">REGISTER</a>
+            <a class="modal__link modal__link--active" href="#">LOGIN</a>
+          </div>
+          <form class="modal__form">
+            <label class="modal__label">
+              Username or email address*
+              <input class="modal__input" type="text" required>
+            </label>
+            <label class="modal__label">
+              Password*
+              <input class="modal__input" type="text" required>
+            </label>
+            <label class="modal__label">
+              <input type="checkbox">
+              Remember me
+            </label>
+            <button class="modal__btn" type="submit">log in</button>
+            <a class="modal__forgot" href="#">Lost your password?</a>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <div class="container">
